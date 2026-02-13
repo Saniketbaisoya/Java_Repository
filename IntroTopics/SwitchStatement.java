@@ -1,9 +1,9 @@
-
+package IntroTopics;
 
 public class SwitchStatement {
     public static void main(String[] args) {
 
-        int number = 50;
+        int number = 29;
         String size;
         switch (number){
             case 29:
@@ -26,5 +26,6 @@ public class SwitchStatement {
         }
 
         System.out.println("size is : " + size);
+
     }
 }
