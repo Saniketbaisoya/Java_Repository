@@ -17,6 +17,5 @@ public class Output {
         // System.out.printf(format, arguments);
         System.out.printf("Java is %d interesting", 100);
 
-
     }
 }
