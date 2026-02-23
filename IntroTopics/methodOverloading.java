@@ -10,7 +10,7 @@ public class methodOverloading {
     }
 
     public static String function(int a){
-        return String.format(String.format("%d", a ));
+        return String.format("%d", a );
     }
 
     /**

@@ -4,11 +4,11 @@ public class Array {
         int [] arr;
         arr = new int[10];
 
-        // intialize + decalre the memory both....
+        // intialize + decalre the memory both in one line....
         int[] arr2 = new int[10];
 
 
-        // initialize during elements....
+        // initializing during elements....
         int[] arr3 = {5,4,3,1,2};
         
         System.out.println(arr3[1] + " " + arr3[2]);
