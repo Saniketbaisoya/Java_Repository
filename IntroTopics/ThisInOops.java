@@ -46,7 +46,7 @@ public class ThisInOops {
         obj.getData();
     }
     public static void main(String[] args) {
-        ThisInOops obj = new ThisInOops();
+        ThisInOops obj = new ThisInOops(10,20);
     }
 }
 
