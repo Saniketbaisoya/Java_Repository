@@ -8,8 +8,10 @@ public class ThisInOops {
     private int i, j;
     ThisInOops(int i, int j){
         this.i = i; // 10
-        this.j = j; // 20
         this.getData();
+        this.j = j; // 20
+        add(this);
+        
     }
 
 
@@ -28,6 +30,20 @@ public class ThisInOops {
     // behaviour/ method/ member function
     void getData(){
         System.out.println(this.i+ " "+this.j);
+    }
+
+    /**
+     * Now this ek object hai joki hmm function ko call krte time jb pass krte hai
+     * Toh uss case mai ek object ko function ke parameter pr declare krke bhi rkhna hota hai
+     * Taki this object ko yeah parameter ka obj accepet krle and abb obj ke pass pura this ka access 
+     * So obj sbhi fields constructor and member functions ko access kr skta hai
+     * @param obj -> this
+     * obj class ThisInOops ka use krke hi create hoga
+     */
+    void add(ThisInOops obj){
+        obj.i += 2;
+        obj.j += 2;
+        obj.getData();
     }
     public static void main(String[] args) {
         ThisInOops obj = new ThisInOops();
