@@ -1,9 +1,9 @@
-package IntroTopics;
+
 
 import java.util.Scanner;
 
 public class input {
-    public static void main(String [] args){
+    public static void main(String[] args){
 
         // initializing the Scanner class by creating an object...
         Scanner input = new Scanner(System.in);
@@ -29,5 +29,9 @@ public class input {
         // Yha do different ke bech concatination hua hai, yha number assigned nhi hua...
         System.out.println("The data is : " + number);
 
+        System.out.println("Enter the whole line as input: ");
+        String str2 = input.nextLine();
+
+       
     }
 }

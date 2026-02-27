@@ -8,7 +8,9 @@ public class IntersectionArray {
 
         /**
          * two pointers -> i and j;
-         * while(i< arr1.length || j < arr2.length)
+         * Now yha || ki condition isliye nhi ayegi kyuki agr ek bhi iterator bahar hogya tbhi stop krege while loop ko
+         * Yani intersection find krne ke liye dono pointers ka andr hona jarori hai that's why &&
+         * while(i< arr1.length && j < arr2.length)
          * i < j i++
          * j < i j++
          * i == j {add(arr[i]),  i++ j++};
