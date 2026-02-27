@@ -7,4 +7,10 @@ public class biCycleObject {
 
         mountainBicycle.Brakingggg();
     }
+
+    /**
+     * Public -> declaration is visible everywhere....
+     * Private -> declaration is visible with in the class....
+     * Protected -> declaration is visible with in the packages or subclassess....
+    */
 }
