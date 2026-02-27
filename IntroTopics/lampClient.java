@@ -2,8 +2,8 @@ public class lampClient {
     
     public static void main(String[] args) {
         
-        lampClass lamp = new lampClass();
+        lampClass lampLed = new lampClass();
 
-        lamp.turnOff();
+        lampLed.turnOff();
     }
 }
