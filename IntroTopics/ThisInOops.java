@@ -47,8 +47,6 @@ public class ThisInOops {
     }
     public static void main(String[] args) {
         ThisInOops obj = new ThisInOops();
-
-
     }
 }
 
