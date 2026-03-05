@@ -3,7 +3,7 @@
 /**
  * Now yha NotificationService ek interface hai 
  * Yani is interface ke logic ko implement krege in other class
- * So that ki inke methods/functions ko use ske....
+ * So that ki inke methods/functions ko use kr ske....
  */
 interface NotificationService {
     
