@@ -15,5 +15,4 @@ public class NotificationExample {
         smsService.subscribeTopic("alert");
     }
 
-
 }
